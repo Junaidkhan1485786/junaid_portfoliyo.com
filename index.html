@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junaid Khan - Web Developer </title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Junaid Khan</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="https://drive.google.com/file/d/1_5-Mc9XztLyOsQBeIJtjMoUfYndcTIsL/view?usp=sharing" class="btn btn-primary">Download CV</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Junaid Khan</strong>Back-End Developer
+            </h2>
+
+            <p class="hero-text">
+              Backend Developer skilled in Python (FastAPI & Django), and database management. Currently working on the 'KISAAN MANDI' project, a platform connecting farmers and consumers, handling user authentication and API development. Strong foundation in backend development, API integration, and scalable database solutions.
+            </p>
+
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Connect with me</a>
+
+              <a href="#about" class="btn btn-primary blue">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.png" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/absolute-image.jpg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">
+
+
+
+            <div class="abs-icon abs-icon-2">
+              dj
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI Logo" width="50" height="50">
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Back-End Developer</p>
+
+            <h2 class="h2 section-title">I specialize in developing web applications that empower people</h2>
+
+            <p class="section-text">
+              I am proficient in Python, managing databases, and utilizing ORM tools to enhance code readability and efficiency. My goal is to deliver applications that provide excellent user experiences while continuously improving my skills and adapting to industry trends.
+            </p>
+
+
+
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">🖥️ My Projects 🖥️</h2>
+
+          <p class="section-text">
+            I have successfully developed efficient and user-centric web applications.
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="assets/noproject.html" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  <p style="color: #000000" class="card-subtitle">KISAAN MANDI</p>
+
+                  <h4 style="color: #003366;" >a platform
+                    connecting farmers and consumers directly, that allows farmers to sell crops, fruits, vegetables, and dry fruits
+                    directly to consumers without visiting physical markets. 
+                    </h4>
+                    <span style="color: #003366;" >September 2024 - Present
+                    </span> 
+
+                  
+
+                </div>
+              </a>
+            </li>
+            <li>
+                <a href="https://github.com/Junaidkhan1485786/Article-Search-Engine" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.png'); width: 1200px; height: 400px;" >
+                  <div class="card-content">
+  
+                    <h3 style="color: #151b14;" class="card-subtitle">Indian Constitution Articles Web App</h3>
+  
+                    <h4 style="color:#262c23; " >Designed to provide a single platform for easy access to all Indian Constitution articles, enhancing public
+                      education and ensuring 100% readability.
+                      </h4>
+
+                  </div>
+                </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/Junaidkhan1485786/Notevault" class="portfolio-card" style="background-image: url('./assets/images/notes.png')">
+                <div class="card-content">
+
+                  <h3 class="card-subtitle" style="margin-bottom: 20px; color: #000;">NoteVault Web App</h3>
+
+                  <h4 style="color: rgb(66, 30, 52);" >• NoteVault is a full-stack note-taking application built with FastAPI and MongoDB, designed to store and
+                    manage notes with a title, date, and detailed description.</h4>
+
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/Junaidkhan1485786/why-indian-population-shifts-to-pakistani-dramas" class="portfolio-card" style="background-image: url('./assets/images/Black\ Technology\ LinkedIn\ Banner5.png')">
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+            "I have showcased my skills below, rated out of 100%."
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">Python</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 85%">
+                <h3 class="skills-title">FastAPI</h3>
+
+                <data class="skills-data" value="85">85%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 85%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 30%">
+                <h3 class="skills-title">Django</h3>
+
+                <data class="skills-data" value="30">30%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 30%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">OOPs Concepts</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 60%">
+                <h3 class="skills-title">MongoDB</h3>
+
+                <data class="skills-data" value="60">60%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 60%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">MySQL</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 50%">
+                <h3 class="skills-title">ORM/ODM</h3>
+
+                <data class="skills-data" value="50">50%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 50%"></div>
+              </div>
+            </li>
+            <li class="skills-item">
+              <div class="wrapper" style="width: 55%">
+                <h3 class="skills-title">Git, GitHub</h3>
+
+                <data class="skills-data" value="55">55%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 55%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+            <div> <h3 class="card-subtitle">Connect with me</h3></div>
+
+
+            <div style="margin-top: 50px;" class="wrapper">
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      Alwar, northeastern Rajasthan state, India
+                    </address>
+                  </div>
+
+                </li>
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto: junaidff1485786@gmail.com" class="contact-item-link"> junaidff1485786@gmail.com</a>
+                  </div>
+                  
+
+                </li>
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Linkedin</h3>
+
+                    <a href="https://www.linkedin.com/in/junaid-khan-998227jk4550/" class="contact-item-link">https://www.linkedin.com/in/junaid-khan-998227jk4550/</a>
+                  </div>
+                  
+
+                </li>
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">GitHub</h3>
+
+                    <a href="https://github.com/Junaidkhan1485786" class="contact-item-link">https://github.com/Junaidkhan1485786</a>
+                  </div>
+                  
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+1234567890" class="contact-item-link">+91 9982274550</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">JUNAID KHAN</a>. All Rights Reseverd
+      </p>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
